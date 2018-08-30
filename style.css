@@ -1,0 +1,64 @@
+.detail {
+    background-color: #3787C7;
+    padding: 2em;
+    font-size: 0.8rem;
+    -webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.15);
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 700px ;
+}
+
+.header{
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 0.7rem;
+
+}
+
+.content {
+    color: #FFF;
+    padding-bottom: 1rem;
+    font-size: 0.7rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.ntc-container-flex {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 2rem;
+    font-size: 0.7rem;
+    flex-direction: column;
+}
+
+.ntc-indicator-container {
+    color: #000;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.total {
+    font-size: 1.5rem;
+}
+.total-string {
+
+}
+.total-amount {
+    
+}
